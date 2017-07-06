@@ -45,7 +45,7 @@ if ( ! class_exists( 'HentryFixer' ) ) {
 		 
 		/**
 		 * get_hatom_data
-		 * Contstructs hatom/entry markup for post content
+		 * Contstructs hatom/hentry markup for post content
 		 * @return string 
 		 **/
 		private function get_hatom_data() {
