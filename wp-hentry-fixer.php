@@ -29,7 +29,6 @@ if ( ! class_exists( 'HentryFixer' ) ) {
 	     * constructor
 	     */
 		public function __construct() {
-			// called only after woocommerce has finished loading
 			add_filter( 'the_content', array( $this, 'hatom_data_in_content'), 100 );	            			
 		}
 
